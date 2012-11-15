@@ -1,0 +1,59 @@
+==================================================
+Changes from 2011-11-16 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.001 at 2012-11-15 07:36:51 +0000
+------------------------------------------
+
+  Change: 6af3ca6771c590a27106f24a5e9c78ca9eaa45fa
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-11-14 23:31:34 +0000
+
+    Add Server::Starter Dep 
+
+  Change: 2255b7ac3b3c095f38b3064a7bd3af91dfff01bc
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-11-14 17:03:21 +0000
+
+    Updates and fixes 
+
+  Change: 51a1cdd3ce749b04b560de5149339381dfa49f50
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:45:32 +0000
+
+    Add env back 
+
+  Change: 2f75b23d387883d4fa3c1c0ea93dd9ca3c1cbe3f
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:43:41 +0000
+
+    Fix validation args issue 
+
+  Change: ae55f55b27bc8f5dc65451355efd7b401ed6762d
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:38:49 +0000
+
+    Fix env variable support 
+
+  Change: 985740cebec216573d05d2c6ac45d70ba5eb0edf
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:35:59 +0000
+
+    doc updates 
+
+  Change: d57653cf81b60d415e12f710d2b007855b5e5e7c
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:32:43 +0000
+
+    initial commit 
+
+  Change: a51abbe495fb2911f4da52a157efe1b9f61306db
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-10-31 17:01:09 +0000
+
+    initial commit 
+
+================
+End of releases.
+================
