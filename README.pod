@@ -1,10 +1,10 @@
 =head1 NAME
 
-Ubic::Service::ServerStarter - Helper for running psgi applications with ubic and plackup
+Ubic::Service::ServerStarter - Run programs using Server::Starter
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -30,8 +30,8 @@ version 0.001
 
 =head1 DESCRIPTION
 
-This service is a common ubic wrap for psgi applications.
-It uses plackup for running these applications.
+This service allows you to wrap any command with L<Server::Starter>, which
+enables graceful reloading of that app without any downtime.
 
 =head1 NAME
 
@@ -44,7 +44,7 @@ with L<Server::Starter>
 
 =item I<args> (optional)
 
-Arguments to send to start_server.
+Arguments to send to C<start_server>.
 
 =item I<cmd> (required)
 
@@ -65,19 +65,19 @@ Path to ubic log.
 
 =item I<stdout>
 
-Path to stdout log of plackup.
+Path to stdout log.
 
 =item I<stderr>
 
-Path to stderr log of plackup.
+Path to stderr log.
 
 =item I<user>
 
-User under which plackup will be started.
+User under which C<start_server> will be started.
 
 =item I<group>
 
-Group under which plackup will be started. Default is all user groups.
+Group under which C<start_server> will be started. Default is all user groups.
 
 =item I<cwd>
 
@@ -86,38 +86,6 @@ Change working directory before starting a daemon.
 =item I<pidfile>
 
 Pidfile for C<Ubic::Daemon> module.
-
-If not specified, it will be derived from service's name or from I<app_name>,
-if provided.
-
-Pidfile is:
-
-=over
-
-=item *
-
-I<pidfile> option value, if provided;
-
-=item *
-
-C</tmp/APP_NAME.pid>, where APP_NAME is I<app_name> option value, if it's
-provided;
-
-=item *
-
-C</tmp/SERVICE_NAME.pid>, where SERVICE_NAME is service's full name.
-
-=item C<pidfile()>
-
-Get pidfile name.
-
-=item C<bin()>
-
-Get command-line with all arguments in the arrayref form.
-
-=for Pod::Coverage defaults
-
-=back
 
 =head1 AUTHOR
 

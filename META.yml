@@ -1,5 +1,5 @@
 ---
-abstract: 'Helper for running psgi applications with ubic and plackup'
+abstract: 'Run programs using Server::Starter'
 author:
   - 'William Wolf <throughnothing@gmail.com>'
 build_requires:
@@ -17,7 +17,6 @@ meta-spec:
 name: Ubic-Service-ServerStarter
 requires:
   Params::Validate: 0
-  Plack: 0
   Server::Starter: 0.12
   Ubic::Daemon: 0
   Ubic::Service::Skeleton: 0
@@ -26,5 +25,6 @@ requires:
   warnings: 0
 resources:
   bugtracker: https://github.com/throughnothing/Ubic-Service-ServerStarter/issues
+  homepage: http://metacpan.org/release/Ubic-Service-ServerStarter/
   repository: git://github.com/throughnothing/Ubic-Service-ServerStarter.git
-version: 0.001
+version: 0.002
